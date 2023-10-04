@@ -25,7 +25,7 @@ public class Sample {
 		Response response = requestSpecification.request(Method.GET,"/users/repos");
 		System.out.println(response.getStatusCode());
 		System.out.println(response.getBody().asPrettyString());
-		System.out.println("Work done with A");
+		
 	}
-
 }
+
